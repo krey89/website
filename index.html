@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Your Website</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+
+	</head>
+	<body class="loading">
+<!-- wrapper div -->
+		<div id="wrapper">
+			<!-- background -->
+			<div id="bg"></div>
+<!-- overlay -->
+			<div id="overlay"></div>
+			<!--main div-->
+			<div id="main" style="overflow-y:scroll">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Company Name</h1>
+						<h2>Another Line of Details</h2>
+						<p>Message1 &nbsp;&bull;&nbsp; Message2 &nbsp;&bull;&nbsp; Message3</p>
+						<!--icon buttons-->
+						<nav>
+							<ul>
+								<!-- link to your events page -->
+								<li><a href="#" class="icon fa-calendar"id="events"><span>Events</span></a></li>
+								<!-- link to contact php page -->
+								<li><a href="contact.php" class="icon fa-envelope-o" id="contacts"><span>Contact</span></a></li>
+							</ul>
+						</nav>
+
+
+						<!-- Grid -->
+								<div class="row">
+									<!-- automation link -->
+									<div class="4u 12u(narrower)">
+										<hr/>
+										<section>
+												<h3><a href="somepage.html" id="button">SomePage</a></h3>
+										</section>
+									</div>
+									<!-- services link -->
+									<div class="4u 12u(narrower)">
+										<hr/>
+										<section>
+												<h3><a href="otherpage.html" id="button">OtherPage</a></h3>
+										</section>
+									</div>
+									<!-- about link -->
+									<div class="4u 12u(narrower)">
+										<hr/>
+										<section>
+												<h3><a href="about.html" id="button">About</a></h3>
+										</section>
+									</div>
+								</div>
+					</header>
+
+
+
+				<!-- Footer -->
+					<footer id="footer">
+
+
+						<p class="copyright">&copy; Your_Company, Ltd..</p>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.className = ''; }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
